@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+
+
+    & header {
+        .navbar {
+            background-color: #e3f2fd;
+
+            .tamaño {
+                padding-left: 1em;
+                height: 50px !important;
+
+
+            }
+        }
+    }
+
+    & main {
+              
+
+        & h1 {           
+            padding-top: 0.1em;
+            font-family: lucida handwriting;
+            font-size: 10em;       
+           
+        }
+
+        & h2 {
+            padding-bottom: 0.5em;
+            font-family: lucida handwriting;
+
+        }
+
+        & h3 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+        .compra {
+            color: red;
+            margin-top: 1em;
+            font-weight: bold;
+
+        }
+
+        .gatito {
+            max-width: 80%;
+            margin: 1em;
+        }
+
+        .entrenando {
+            max-width: 40%;
+            margin: 1em;
+        }
+
+        .vacunacion {
+            margin: 2em 5em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+            .vacuna {
+
+                font-style: italic;
+                color: rgba(59, 51, 18, 0.719);
+                text-decoration: underline;
+                text-decoration-color: rgba(137, 43, 226, 0.813);
+                text-decoration-style: wavy;
+            }
+
+            .clinica {
+                max-width: 750px !important;
+                margin-bottom: 2em;
+            }
+        }
+
+
+        .grilla {
+            padding-top: 2em;
+        }
+
+        .nota {
+            .titular {
+                margin: 1em;
+                text-decoration: underline;
+                font-style: italic;
+                color: rgb(168, 0, 0);
+
+            }
+
+            .parrafo {
+                margin: 2em;
+
+            }
+        }
+    }
+
+    & footer {
+        .foot {
+            background-color: hsl(204, 100%, 84%);
+        }
+    }
+
+}
